@@ -1,0 +1,99 @@
+[
+  {
+    "id": 1,
+    "name": "Mikasa Ackerman",
+    "picture": "https://i.ibb.co.com/jPrqbV9X/Mikasa-A.webp",
+    "email": "john@example.com",
+    "days_since_contact": 12,
+    "status": "overdue",
+    "tags": ["college", "close friend"],
+    "bio": "Met in university. Love hiking together.",
+    "goal": 14,
+    "next_due_date": "2025-07-20"
+  },
+  {
+    "id": 2,
+    "name": "Killua Zoldyck",
+    "picture": "https://i.ibb.co.com/WN9mjjsk/3e6c0dbd7e2c149ff4b0596b9b23f56a.jpg",
+    "email": "sarah@example.com",
+    "days_since_contact": 5,
+    "status": "active",
+    "tags": ["office", "team"],
+    "bio": "Work colleague from marketing team.",
+    "goal": 10,
+    "next_due_date": "2025-07-25"
+  },
+  {
+    "id": 3,
+    "name": "Madara Uchiha",
+    "picture": "https://i.ibb.co.com/JPBYMhW/Madara-Uchiha.webp",
+    "email": "michael@example.com",
+    "days_since_contact": 20,
+    "status": "overdue",
+    "tags": ["gym", "friend"],
+    "bio": "Gym partner and fitness enthusiast.",
+    "goal": 15,
+    "next_due_date": "2025-07-18"
+  },
+  {
+    "id": 4,
+    "name": "Satoru Gojo",
+    "picture": "https://i.ibb.co.com/LhxLP0Yt/gojo.jpg",
+    "email": "emma@example.com",
+    "days_since_contact": 2,
+    "status": "active",
+    "tags": ["school", "best friend"],
+    "bio": "Best friend from school days.",
+    "goal": 7,
+    "next_due_date": "2025-07-30"
+  },
+  {
+    "id": 5,
+    "name": "Giyu Tomioka",
+    "picture": "https://i.ibb.co.com/jcrKqrw/71887c32cae4a9ebcaab373887873640.jpg",
+    "email": "david@example.com",
+    "days_since_contact": 30,
+    "status": "overdue",
+    "tags": ["family"],
+    "bio": "Cousin, lives in another city.",
+    "goal": 20,
+    "next_due_date": "2025-07-15"
+  },
+  {
+    "id": 6,
+    "name": "Roronoa Zoro",
+    "picture": "https://i.ibb.co.com/Nd3XWgdD/one-piece-zoro-1278854-1280x0-1-1024x535.webp",
+    "email": "olivia@example.com",
+    "days_since_contact": 1,
+    "status": "active",
+    "tags": ["neighbor"],
+    "bio": "Friendly neighbor next door.",
+    "goal": 5,
+    "next_due_date": "2025-08-01"
+  },
+  {
+    "id": 7,
+    "name": "Monkey D. Luffy",
+    "picture": "https://i.ibb.co.com/JR2JDFxN/Monkey-D-Luffy.jpg",
+    "email": "daniel@example.com",
+    "days_since_contact": 18,
+    "status": "overdue",
+    "tags": ["college", "group study"],
+    "bio": "Study partner from college.",
+    "goal": 12,
+    "next_due_date": "2025-07-19"
+  },
+  {
+    "id": 8,
+    "name": "Nezuko Kamado",
+    "picture": "https://i.ibb.co.com/TMsPKF25/eccf7b82a3fcbdecced0b537c4247828.jpg",
+    "email": "sophia@example.com",
+    "days_since_contact": 7,
+    "status": "active",
+    "tags": ["online friend"],
+    "bio": "Met through an online community.",
+    "goal": 10,
+    "next_due_date": "2025-07-28"
+  }
+]
+

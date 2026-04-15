@@ -3,6 +3,7 @@ import { Link, NavLink } from 'react-router';
 import { RiHome2Line } from "react-icons/ri";
 import { IoTimeOutline } from "react-icons/io5";
 import { ImStatsDots } from "react-icons/im";
+import keenkeeper from '../../assets/logo.png';
 
 
 const Navber = () => {
@@ -21,7 +22,7 @@ const Navber = () => {
         <nav className=' bg-base-100 shadow-sm '>
               <div className="navbar container mx-auto">
                 <div className="navbar-start">
-                    <p className=" text-2xl font-bold">Keen<span className='text-[#244D3F]'>keeper</span></p>
+                    <img src={keenkeeper} alt="" />
                 </div> 
    
             <div className="navbar-end flex gap-3">
