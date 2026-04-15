@@ -94,6 +94,55 @@
     "bio": "Met through an online community.",
     "goal": 10,
     "next_due_date": "2025-07-28"
+  },
+  {
+    "id": 9,
+    "name": "Eren yeager",
+    "picture": "https://i.ibb.co.com/PzzRVQzM/f6e7dc75886501e27d4c525979b70cd4.jpg",
+    "email": "liam@example.com",
+    "days_since_contact": 9,
+    "status": "active",
+    "tags": ["work", "developer"],
+    "bio": "Frontend developer colleague.",
+    "goal": 10,
+    "next_due_date": "2025-08-05"
+  },
+  {
+    "id": 10,
+    "name": "L Lawliet",
+    "picture": "https://i.ibb.co.com/RkjWWSw0/L-Death-Note.webp",
+    "email": "ava@example.com",
+    "days_since_contact": 25,
+    "status": "overdue",
+    "tags": ["family", "aunt"],
+    "bio": "Lives abroad, rarely meet.",
+    "goal": 20,
+    "next_due_date": "2025-07-10"
+  },
+  {
+    "id": 11,
+    "name": " Naruto uzumaki",
+    "picture": "https://i.ibb.co.com/20HCZHvT/Naruto-s-Sage-Mode.webp",
+    "email": "noah@example.com",
+    "days_since_contact": 3,
+    "status": "active",
+    "tags": ["gaming", "friend"],
+    "bio": "Online gaming buddy.",
+    "goal": 7,
+    "next_due_date": "2025-08-02"
+  },
+  {
+    "id": 12,
+    "name": "Makima",
+    "picture": "https://i.ibb.co.com/zTk5Q9GV/my-full-scaling-of-makima-from-chainsaw-man-both-show-and-v0-v4jfokrm9rye1.webp",
+    "email": "isabella@example.com",
+    "days_since_contact": 14,
+    "status": "overdue",
+    "tags": ["university", "classmate"],
+    "bio": "Classmate from university.",
+    "goal": 14,
+    "next_due_date": "2025-07-22"
   }
+
 ]
 

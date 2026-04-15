@@ -21,13 +21,14 @@ const router = createBrowserRouter([
          element: <Homepage></Homepage>
        },
        {
-        path: "/timeline",
+        path: "/timeline/:id",
         element: <Timeline></Timeline>
        },
        {
         path: "/stats",
         element: <Stats></Stats>
-       }
+       },
+       
      ],
      errorElement: <ErrorPage></ErrorPage>
   },
