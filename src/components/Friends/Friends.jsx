@@ -21,7 +21,7 @@ const Friends = () => {
                     <div key={ind} className=''>
            
             <div>
-                <Link to={`/timeline/${friends.id}`} className="card bg-base-100 shadow-sm">
+                <Link to={`/friendsDetalls/${friends.id}`} className="card bg-base-100 shadow-sm">
                     <figure className="px-10 pt-10">
                       <img
                         src={friends.picture}
