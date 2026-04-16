@@ -11,11 +11,11 @@ const Navber = () => {
     const link = (
         <>
         <NavLink to={"/"} className={({isActive})=>
-        `text-[#64748B]   ${isActive ? "btn text-xl text-white bg-[#1f5c4a]": ""}`} > <RiHome2Line /> Home </NavLink>
+        `text-[#64748B] flex flex-row gap-2 justify-center items-center  ${isActive ? "btn text-xl text-white bg-[#1f5c4a]": ""}`} > <RiHome2Line /> Home </NavLink>
         <NavLink to={"/Timeline"}  className={({isActive})=>
-        `text-[#64748B] flex  ${isActive ? "btn text-xl text-white bg-[#1f5c4a]": ""}`}> <IoTimeOutline />Timeline</NavLink>
+        `text-[#64748B] flex flex-row gap-2 justify-center items-center ${isActive ? "btn text-xl text-white bg-[#1f5c4a]": ""}`}> <IoTimeOutline />Timeline</NavLink>
         <NavLink to={"/Stats"} className={({isActive})=>
-        `text-[#64748B] ${isActive ? "btn text-xl text-white bg-[#1f5c4a]": ""}`} > <ImStatsDots />Stats</NavLink>
+        `text-[#64748B] flex flex-row gap-2 justify-center items-center ${isActive ? "btn text-xl text-white bg-[#1f5c4a]": ""}`} > <ImStatsDots />Stats</NavLink>
         </>
     ) 
     return (

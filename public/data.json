@@ -143,6 +143,9 @@
     "goal": 14,
     "next_due_date": "2025-07-22"
   }
-
+ 
+  // <div className='flex flex-row justify-center items-center bg-[#F8FAFC] rounded-xl p-10 text-center shadow-xl space-y-2 w-96'>
+  //                 <p className='text-[#64748B] text-2xl'><FiPhoneCall />Call</p>
+  //                </div>
 ]
 

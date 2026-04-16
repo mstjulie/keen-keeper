@@ -1,4 +1,4 @@
-import React, { use } from 'react';
+import React, { use,  } from 'react';
 import Mikasa from '../../assets/MikasaA.webp'
 import { Link } from 'react-router';
 
@@ -9,11 +9,12 @@ const Friends = () => {
     const friends = use(friendsPromise);
     console.log(friends, 'friends');
     return (
-        <>
+        <> 
+
          <div className='py-15 border-t border-solid border-gray-300 container mx-auto'>
                 <h1 className='text-4xl font-bold'>Your Friends</h1>
             </div>
-
+    
     <div className='grid grid-cols-4 gap-3 container mx-auto my-auto'>
         {
             friends.map((friends, ind)=>{
