@@ -11,7 +11,8 @@ import ErrorPage from './pages/ErrorPage/ErrorPage.jsx';
 import Stats from './pages/Homepage/Stats.jsx';
 import FriendsDetalls from './components/Friends/FriendsDetalls/FriendsDetalls.jsx';
 import Timeline from './pages/Homepage/Timeline.jsx';
-
+import FriendProvider from './context/FriendContext.jsx';
+  import { ToastContainer } from 'react-toastify';
 
 
 const router = createBrowserRouter([
@@ -44,6 +45,9 @@ const router = createBrowserRouter([
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
+    <FriendProvider>
     <RouterProvider router={router}></RouterProvider>
+    <ToastContainer />
+    </FriendProvider>
   </StrictMode>,
 )

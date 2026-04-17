@@ -8,6 +8,8 @@ const friendsPromise = fetch('/data.json')
 const Friends = () => {
     const friends = use(friendsPromise);
     console.log(friends, 'friends');
+
+    
     return (
         <> 
 

@@ -1,25 +1,29 @@
-import React from 'react';
 import { useLoaderData, useParams } from 'react-router';
-import mikasha from '../../../assets/MikasaA.webp'
 import { RiNotificationSnoozeLine } from "react-icons/ri";
 import { FiArchive } from "react-icons/fi";
 import { RiDeleteBin5Line } from "react-icons/ri";
 import { FiPhoneCall } from "react-icons/fi";
 import { MdOutlineTextsms } from "react-icons/md";
 import { CiVideoOn } from "react-icons/ci";
+import { FriendContext } from '../../../context/FriendContext';
+import { useContext } from 'react';
+
 
 const FriendsDetalls = () => {
     const {id} = useParams();
-        console.log(id, 'id');
+        // console.log(id, 'id');
     
     const friends = useLoaderData();  
-    console.log(friends, 'friends');  
+    //  console.log(friends, 'friends');  
 
     const friend = friends.find(friends => friends.id == id)
-    console.log(friend, 'friend')
+    //  console.log(friend, 'friend')
 
-    
-
+   
+   const {handleCall, storedCalls} = useContext(FriendContext);
+   console.log(handleCall, storedCalls, 'handleCall');
+   
+   
     return (   
       <div className='container mx-auto mt-10'> 
 
@@ -78,7 +82,7 @@ const FriendsDetalls = () => {
                 <h1 className='text-[#244D3F] text-2xl font-bold'>Quick Check-In</h1>
               
                <div className='flex flex-row space-x-3 pt-3'>
-            <button className="btn  bg-base-100 text-xl py-6  shadow-xl"><FiPhoneCall />Call</button>
+            <button className="btn  bg-base-100 text-xl py-6  shadow-xl" onClick={()=> handleCall(friend)}><FiPhoneCall />Call</button>
             <button className="btn  bg-base-100 text-xl py-6  shadow-xl"><MdOutlineTextsms />Text</button>
             <button className="btn  bg-base-100 text-xl py-6  shadow-xl"><CiVideoOn />Video</button>
           </div>
