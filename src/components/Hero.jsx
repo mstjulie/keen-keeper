@@ -4,7 +4,7 @@ import { FaPlus } from "react-icons/fa6";
 const Hero = () => {
     return (
         <div >
-            <div className="hero bg-[#F8FAFC]  pt-10">
+            <div className="hero bg-[#F8FAFC] py-10 md:py-20 lg:py-28 min-h-[60vh] ">
                <div className="hero-content text-center">
                  <div className="max-w-md">
                    <h1 className=" flex flex-col gap-2 justify-center items-center text-5xl text-[#1F2937] font-bold whitespace-nowrap">Friends to keep close in your life</h1>

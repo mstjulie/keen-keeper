@@ -19,10 +19,10 @@ const Navber = () => {
         </>
     ) 
     return (
-        <nav className=' bg-base-100 shadow-sm '>
+        <nav className=' bg-base-100 shadow-sm px-4 md:px-8'>
               <div className="navbar container mx-auto">
                 <div className="navbar-start">
-                    <img src={keenkeeper} alt="" />
+                   <img src={keenkeeper} alt="logu" />
                 </div> 
    
             <div className="navbar-end flex gap-3">

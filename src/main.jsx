@@ -15,6 +15,7 @@ import FriendProvider from './context/FriendContext.jsx';
   import { ToastContainer } from 'react-toastify';
 
 
+
 const router = createBrowserRouter([
   {
     path: "/",
@@ -37,6 +38,7 @@ const router = createBrowserRouter([
         element: <FriendsDetalls></FriendsDetalls>,
         loader: ()=> fetch('/data.json')
        },
+      
      ],
      errorElement: <ErrorPage></ErrorPage>
   },

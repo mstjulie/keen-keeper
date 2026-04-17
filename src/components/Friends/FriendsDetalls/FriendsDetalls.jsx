@@ -20,15 +20,15 @@ const FriendsDetalls = () => {
     //  console.log(friend, 'friend')
 
    
-   const {handleCall, storedCalls} = useContext(FriendContext);
-   console.log(handleCall, storedCalls, 'handleCall');
+   const {handleCall, handleText, handleVideo} = useContext(FriendContext);
+   
    
    
     return (   
       <div className='container mx-auto mt-10'> 
 
       {/* left side */}
-        <div className='grid grid-cols-3 gap-6 bg-[#F8FAFC] p-6 max-w-full pt-10 '>
+        <div className='grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 bg-[#F8FAFC] p-6 max-w-full pt-10 '>
           <div className=''>
             <div className='flex flex-col space-y-2 items-center bg-base-100 rounded-xl p-4 text-center shadow-xl'>
             <img src={friend.picture} alt="mikasha" className='w-32 h-32 rounded-full object-cover' />
@@ -49,17 +49,17 @@ const FriendsDetalls = () => {
 
         {/* Right side */}
           <div className='col-span-2 space-y-4 max-w-full'>
-            <div className='flex flex-3 gap-3 '>
-            <div className='flex justify-center items-center bg-base-100  rounded-xl p-10 text-center shadow-xl w-96'>
+            <div className='grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 '>
+            <div className='flex justify-center items-center bg-base-100  rounded-xl p-10 text-center shadow-xl '>
               <h1 className='text-3xl font-bold text-[#244D3F] '>{friend.days_since_contact}</h1>
             </div>
 
-             <div className='items-center bg-base-100 rounded-xl p-10 text-center shadow-xl space-y-2 w-96'>
+             <div className='items-center bg-base-100 rounded-xl p-10 text-center shadow-xl space-y-2 '>
                 <h1 className='text-3xl font-bold text-[#244D3F]'>{friend.goal}</h1>
                 <p className='text-[#64748B]'>Goal (Days)</p>
              </div>
 
-             <div className='items-center bg-base-100 rounded-xl p-10 text-center shadow-xl space-y-2 w-96'>
+             <div className='items-center bg-base-100 rounded-xl p-10 text-center shadow-xl space-y-2'>
                 <h1 className='text-3xl font-bold text-[#244D3F]'>{friend.next_due_date}</h1>
                 <p className='text-[#64748B]'>Next Due</p>
              </div>
@@ -81,10 +81,10 @@ const FriendsDetalls = () => {
               <div className='bg-base-100 rounded-xl shadow-xl p-4 mt-7 space-x-2'>
                 <h1 className='text-[#244D3F] text-2xl font-bold'>Quick Check-In</h1>
               
-               <div className='flex flex-row space-x-3 pt-3'>
+               <div className='grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 pt-3'>
             <button className="btn  bg-base-100 text-xl py-6  shadow-xl" onClick={()=> handleCall(friend)}><FiPhoneCall />Call</button>
-            <button className="btn  bg-base-100 text-xl py-6  shadow-xl"><MdOutlineTextsms />Text</button>
-            <button className="btn  bg-base-100 text-xl py-6  shadow-xl"><CiVideoOn />Video</button>
+            <button className="btn  bg-base-100 text-xl py-6  shadow-xl" onClick={()=>handleText(friend)}><MdOutlineTextsms />Text</button>
+            <button className="btn  bg-base-100 text-xl py-6  shadow-xl" onClick={()=>handleVideo(friend)}><CiVideoOn />Video</button>
           </div>
 
               </div>
