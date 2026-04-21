@@ -13,7 +13,7 @@ const Hero = () => {
                      Your personal shelf of meaningful connections. Browse, tend, and nurture the
                      relationships that matter most.
                    </p>
-                   <button className="btn text-xl text-white bg-[#1f5c4a]"> <FaPlus />Add a Friend</button>
+                   <button className="btn text-xl text-white bg-[#1f5c4a]"> <FaPlus />Add Friend</button>
                    </div>
                  </div>
                </div>
